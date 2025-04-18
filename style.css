@@ -373,7 +373,7 @@ footer {
 
   .reservation form {
     grid-template-columns: 1fr; 
-    margin-left: 0;
+    margin-left: 40px;
   }
 
   .reservation input[type="submit"] {
