@@ -86,7 +86,7 @@ header h1 {
 }
 
 header p {
-  font-size: 1.4rem;
+  font-size: 2.2rem;
   font-weight: 300;
   color: #f5f5f5;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
@@ -213,8 +213,7 @@ header p {
 }
 
 .reservation input[type="submit"] {
-  background-color: var
-  (--primary);
+  background-color: var(--primary);
   color: var(--white);
   border: none;
   padding: 12px 30px;
@@ -364,23 +363,24 @@ footer {
   }
 
   .nav-container {
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
   }
 
   .reservation form {
-    grid-template-columns: 1fr; /* une seule colonne */
+    grid-template-columns: 1fr; 
     margin-left: 0;
   }
 
   .reservation input[type="submit"] {
     margin-left: 0;
     width: 100%;
+    margin-left: 50px;
   }
 
   .room-list {
